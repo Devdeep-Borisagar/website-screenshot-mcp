@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Devdeep-Borisagar/website-screenshot",
+  "title": "Website Screenshot & PDF",
+  "description": "Screenshot any website as PNG, JPEG, WebP, PDF or scrolling MP4/GIF video, with public file links.",
+  "version": "1.0.0",
+  "websiteUrl": "https://apify.com/devdeep/website-screenshot-pdf",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/Devdeep-Borisagar/website-screenshot-mcp/main/icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/Devdeep-Borisagar/website-screenshot-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=devdeep/website-screenshot-pdf"
+    }
+  ]
+}

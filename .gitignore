@@ -1,0 +1,5 @@
+mcp-publisher.exe
+mcp-publisher.tar.gz
+publish.ps1
+.mcpregistry_*
+__pycache__/
